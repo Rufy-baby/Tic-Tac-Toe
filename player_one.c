@@ -4,7 +4,5 @@
 
 int player_one(char **playing_table)
 {
-	printf("%s", "player one");
-	
 	return 1;
 }
