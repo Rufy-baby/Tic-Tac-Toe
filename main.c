@@ -68,7 +68,7 @@ int main(int argc, char **argv)
 			else
 			{
 				convert_point(player_choice, x_ptr, y_ptr);
-				if (playing_table[x_pos][y_pos] == 'X' || playing_table[y_pos][x_pos] == 'O')
+				if (playing_table[x_pos][y_pos] == 'X' || playing_table[x_pos][y_pos] == 'O')
 				{
 					win_check = 'O';
 				}
@@ -94,7 +94,7 @@ int main(int argc, char **argv)
 			{
 				convert_point(player_choice, x_ptr, y_ptr);
 			
-				if (playing_table[x_pos][y_pos] == 'X' || playing_table[y_pos][x_pos] == 'O')
+				if (playing_table[x_pos][y_pos] == 'X' || playing_table[x_pos][y_pos] == 'O')
 				{
 					win_check = 'X';
 				}
